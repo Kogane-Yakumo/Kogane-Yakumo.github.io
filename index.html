@@ -1,7 +1,7 @@
 ﻿<html>
 
 <head>
-	<title>Voyager</title>
+	<title>Kogane Set Hub</title>
 	<link rel="icon" type="image/x-icon" href="/img/favicon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -131,7 +131,7 @@
 		gap: 2px;
 		justify-items: center;
 		align-items: center;
-		padding-bottom: 10px;
+		padding-bottom: 70%;
 	}
 
 	.set-group {
@@ -145,7 +145,7 @@
 	.button-grid {
 		display: grid;
 		margin: auto;
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 		gap: 20px;
 		padding-top: 10px;
 		padding-bottom: 20px;
@@ -193,66 +193,6 @@
 	.container {
 		height: fit-content;
 		align-self: center;
-	}
-
-	.event-container {
-		background: #f3f3f3;
-		width: 90%;
-		border: 1px solid #d5d9d9;
-		border-top: 3px solid #171717;
-		border-bottom: 3px solid #171717;
-		border-radius: 6px;
-		display: grid;
-		justify-items: center;
-		gap: 8px;
-		padding-top: 8px;
-		padding-bottom: 8px;
-		height: fit-content;
-		display: none;
-	}
-
-	.event-container p {
-		border-bottom: 1px solid #898989;
-	}
-
-	.event-container a {
-		width: 70%;
-	}
-
-	.event-container img {
-		width: 100%;
-		display: block;
-		margin: auto;
-	}
-
-	.p1p1-container {
-		background: #f3f3f3;
-		width: 90%;
-		border: 1px solid #d5d9d9;
-		border-top: 3px solid #171717;
-		border-bottom: 3px solid #171717;
-		border-radius: 6px;
-		display: grid;
-		justify-items: center;
-		gap: 8px;
-		padding-top: 8px;
-		padding-bottom: 8px;
-		height: fit-content;
-		display: none;
-	}
-
-	.p1p1-container p {
-		border-bottom: 1px solid #898989;
-	}
-
-	.p1p1-container a {
-		width: 70%;
-	}
-
-	.p1p1-container img {
-		width: 100%;
-		display: block;
-		margin: auto;
 	}
 
 	.card-container {
@@ -335,13 +275,6 @@
 		.two-part-grid p {
 			font-size: 18px;
 		}
-	}
-
-	.settings-icon {
-		max-height: 30px;
-		margin: 5px;
-		cursor: pointer;
-		float: right;
 	}
 
 	.search-info {
@@ -436,62 +369,6 @@
 		color: black;
 	}
 
-	.dot:before {
-		content: "";
-		border-radius: 20px;
-		height: 20px;
-		width: 20px;
-		position: relative;
-		background-color: rgb(79, 79, 79);
-		display: block;
-		cursor: pointer;
-		transition: 0.2s;
-	}
-
-	.dot:not(.dot-active):hover:before {
-		background-color: rgb(59, 59, 59);
-	}
-
-	.dot:active:before {
-		background-color: rgb(20, 20, 20);
-	}
-
-	.dot-active:before {
-		background-color: rgb(20, 20, 20);
-	}
-
-	.dots {
-		display: flex;
-		gap: 8px;
-		margin-left: 62%;
-		margin-top: 15px;
-	}
-
-	.event {
-		background-color: #959595;
-		display: flex;
-		align-items: center;
-		justify-items: flex-end;
-		color: white;
-		padding: 7px;
-		font-size: 24px;
-		font-weight: bold;
-		gap: 8px;
-		cursor: pointer;
-		border-radius: 15px;
-		/* width: 90%; */
-		border: 2px solid black;
-		transition: 0.2s;
-	}
-
-	.event:hover {
-		background-color: #5e5e5e;
-	}
-
-	.event-icon {
-		max-width: 40px;
-	}
-
 	#canvas {
 		height: 250px;
 		width: 300px;
@@ -530,7 +407,6 @@
 	<div class="settings" id="settings">
 		<select id="color-select" onchange="setGradient()">
 		</select>
-		<img src="img/header/settings.png" class="settings-icon" onclick="openSettingsModal()">
 	</div>
 	<div id="gradient"></div>
 	<div class="item-container">
@@ -544,8 +420,6 @@
 		<button onclick="goToSets()"><img src="/img/header/sets.png" class="btn-img">All Sets</button>
 		<button onclick="goToDeckbuilder()"><img src="/img/header/deck.png" class="btn-img">Deckbuilder</button>
 		<button onclick="randomCard()"><img src="/img/random.png" class="btn-img">Random Card</button>
-		<button onclick="window.location.href = '/community'"><img src="/img/header/community.png"
-				class="btn-img">Community</button>
 	</div>
 	<div class="two-part-grid">
 		<div class="container text" id="preview-container">
@@ -553,37 +427,10 @@
 			<div class="set-group"></div>
 			<div class="preview-container">
 				<div class="set-icon-container">
-					<a href="sets/AKT">
-						<div class="set-icon"><img src="sets/AKT-files/logo.png" title="Akellan Transcendence"></img>
+					<a href="sets/CFV">
+						<div class="set-icon"><img src="sets/CFV-files/logo.png" title="Cardfight!! Vanguard"></img>
 						</div>
-						<div class="set-icon-name text">Akellan Transcendence</div>
-					</a>
-				</div>
-				<div class="set-icon-container">
-					<a href="sets/EXPT">
-						<div class="set-icon"><img src="sets/EXPT-files/logo.png" title="TVP Silver Expansion"></img>
-						</div>
-						<div class="set-icon-name text">TVP Silver Expansion</div>
-					</a>
-				</div>
-				<div class="set-icon-container">
-					<a href="sets/HEL">
-						<div class="set-icon"><img src="sets/HEL-files/logo.png" title="Fires of Hwel"></img></div>
-						<div class="set-icon-name text">Fires of Hwel</div>
-					</a>
-				</div>
-				<div class="set-icon-container">
-					<a href="sets/HOD">
-						<div class="set-icon"><img src="sets/HOD-files/logo.png" title="Houses of Dewold"></img>
-						</div>
-						<div class="set-icon-name text">Houses of Dewold</div>
-					</a>
-				</div>
-				<div class="set-icon-container">
-					<a href="sets/ITD">
-						<div class="set-icon"><img src="sets/ITD-files/logo.png" title="Itera: Into the Dream"></img>
-						</div>
-						<div class="set-icon-name text">Itera: Into the Dream</div>
+						<div class="set-icon-name text">Cardfight!! Vanguard</div>
 					</a>
 				</div>
 				<div class="set-icon-container">
@@ -591,26 +438,6 @@
 						<div class="set-icon"><img src="sets/PTN-files/logo.png"
 								title="Port Noon: Occult Islands of Vespera"></img></div>
 						<div class="set-icon-name text">Port Noon: Occult Islands of Vespera</div>
-					</a>
-				</div>
-				<div class="set-icon-container">
-					<a href="sets/PVR">
-						<div class="set-icon"><img src="sets/PVR-files/logo.png" title="Primivir"></img></div>
-						<div class="set-icon-name text">Primivir</div>
-					</a>
-				</div>
-				<div class="set-icon-container">
-					<a href="sets/VNM">
-						<div class="set-icon"><img src="sets/VNM-files/logo.png" title="Vinimroth Eternities"></img>
-						</div>
-						<div class="set-icon-name text">Vinimroth Eternities</div>
-					</a>
-				</div>
-				<div class="set-icon-container">
-					<a href="sets/WAW">
-						<div class="set-icon"><img src="sets/WAW-files/logo.png" title="The Wonderlands’ Wishes"></img>
-						</div>
-						<div class="set-icon-name text">The Wonderlands’ Wishes</div>
 					</a>
 				</div>
 				<div class="set-icon-container">
@@ -628,27 +455,6 @@
 		<div class="card-container" id="cotd-image">
 			<p>Card of the Day</p>
 		</div>
-		<div class="event-container" id="event-container">
-			<p>Events</p>
-			<div class="event" onclick="window.location.href = '/recentgp';">
-				<img src="/img/swords.png" class="event-icon">
-				Current GP
-			</div>
-			<div class="event" onclick="window.location.href = '/collectionleague';">
-				<img src="/img/trophy.png" class="event-icon">
-				Collection League
-			</div>
-		</div>
-		<div class="p1p1-container" id="p1p1-image" onclick="openP1P1()">
-			<p>Daily "P1P1"</p>
-			<span>Click to expand</span>
-			<canvas id="canvas"></canvas>
-		</div>
-	</div>
-	<div class="dots">
-		<div class="dot dot-active" id="dot-1"></div>
-		<div class="dot" id="dot-2"></div>
-		<div class="dot" id="dot-3"></div>
 	</div>
 	</div>
 	<div id="modal-container">
@@ -664,13 +470,6 @@
 		let card_list_arrayified = [];
 		let specialchars = "";
 		let img_list = [];
-		let current_dot = "dot-1";
-
-		const dot_eles = {
-			"dot-1": "cotd-image",
-			"dot-2": "event-container",
-			"dot-3": "p1p1-image"
-		}
 
 		modal = document.getElementById("modal-container");
 		window.onclick = function (event) {
@@ -718,24 +517,6 @@
 				.then(text => {
 					specialchars = text;
 				}).catch(error => console.error('Error:', error));
-
-			//dots
-			Array.from(document.getElementsByClassName("dot")).forEach(dot => {
-				dot.onclick = () => {
-					Array.from(document.getElementsByClassName("dot")).forEach(dot2 => {
-						dot2.className = "dot" + (dot.id == dot2.id ? " dot-active" : "");
-						for (const dotn in dot_eles) {
-							const id = dot_eles[dotn];
-							if (dot.id == dotn) {
-								document.getElementById(id).style.display = "grid";
-								current_dot = dot.id;
-							} else {
-								document.getElementById(id).style.display = "none";
-							}
-						}
-					})
-				}
-			});
 
 			card_list_arrayified = card_list.cards;
 
@@ -818,23 +599,6 @@
 			document.getElementById('text-style').innerHTML += `\n.text-bg { background-color: ${localStorage.getItem('settings.textcolor')} }`;
 		}
 
-		setInterval(() => {
-			const dotn = parseInt(current_dot.split("dot-")[1]);
-			const new_dot = dotn == 3 ? 1 : dotn + 1;
-			Array.from(document.getElementsByClassName("dot")).forEach(dot2 => {
-				dot2.className = "dot" + ("dot-" + new_dot == dot2.id ? " dot-active" : "");
-				for (const dotn in dot_eles) {
-					const id = dot_eles[dotn];
-					if ("dot-" + new_dot == dotn) {
-						document.getElementById(id).style.display = "grid";
-						current_dot = "dot-" + new_dot;
-					} else {
-						document.getElementById(id).style.display = "none";
-					}
-				}
-			})
-		}, 10000);
-
 		function openSettingsModal() {
 			//document.getElementById("modal-container").style.display = "block";
 			window.location.href = "settings";
@@ -859,56 +623,6 @@
 			return true;
 		}
 
-		async function packOnePickOne() {
-			const p1p1_count = 15;
-			const l = p1p1Rand(card_list_cleaned.length, p1p1_count);
-			for (const i of l) {
-				const card = card_list_cleaned[i];
-				const img_url = '/sets/' + card.set + '-files/img/' + card.number + '_' + card.card_name + (card.shape.includes('double') ? '_front' : '') + '.' + card.image_type;
-
-				const image = new Image();
-				image.src = img_url;
-
-				img_list.push(image);
-			}
-
-			const canvas = document.getElementById("canvas");
-			const ctx = canvas.getContext('2d');
-
-			canvas.width = 1883;
-			canvas.height = 1573;
-
-			for (let i = 0; i < img_list.length; i++) {
-				img_list[i].onload = function () {
-					x_offset = 377 * (i % 5);
-					y_offset = 525 * Math.floor(i / 5);
-					ctx.drawImage(img_list[i], x_offset, y_offset, 375, 523);
-				};
-			}
-
-			// document.getElementById("p1p1").style.display = "block";
-		}
-
-		function openP1P1() {
-			const canvas = document.getElementById("canvas2");
-			const ctx = canvas.getContext('2d');
-
-			canvas.width = 1883;
-			canvas.height = 1573;
-
-			for (let i = 0; i < img_list.length; i++) {
-				x_offset = 377 * (i % 5);
-				y_offset = 525 * Math.floor(i / 5);
-				try {
-					ctx.drawImage(img_list[i], x_offset, y_offset, 375, 523);
-				} catch {
-					console.log("ALERT: FAILED DRAWING IMAGE");
-				}
-			}
-
-			document.getElementById('modal-container').style.display = 'block';
-		}
-
 		// if this doesn't work, blame Gemini
 		function reallyRand(x, seed = false) {
 			const date = new Date();
@@ -924,20 +638,6 @@
 			randomNumber = randomNumber / m;
 
 			return Math.floor(randomNumber * x);
-		}
-
-		function p1p1Rand(x, n) {
-			let l = [];
-			const date = new Date();
-			const seed = date.getUTCFullYear() * 10000 +
-				date.getUTCMonth() * 100 +
-				date.getUTCDate();
-			for (let i = 0; i < n; i++) {
-
-				l.push(reallyRand(x, seed * (i + 1)));
-			}
-
-			return l;
 		}
 
 		function prepareGradients() {
@@ -1093,13 +793,7 @@ Search through the flavour text within cards.
 "lore"
 Search through cards flavour text, name, and card notes for a word or name available.
 "designer"
-Search for the designer of cards within the selection. For example, "designer:TVP" will find all cards that were designed by TVP.
-"lairnumber"
-Search for secret lairs by their release order. For example, "lairnumber:1" will find all cards available within the first secret lair.
-"lairname"
-Search for a secret lair by its name. For example, [lairname:"the hours"] finds all cards released within The Hours secret lair.
-"champion"
-Search for cards that were made into champion promo's by a specific user. For example, searching "champion:kogane" will find all cards that user kogane has made into champion promo's by winning in various events.`;
+`;
 
 		function formatText(text) {
 			let new_text = text;
@@ -1148,53 +842,6 @@ Search for cards that were made into champion promo's by a specific user. For ex
 			}
 
 			window.location.href = url;
-		}
-	</script>
-	<script type="module">
-		// Import the functions you need from the SDKs you need
-		import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
-		import { setDoc, addDoc, updateDoc, doc, collection, getFirestore, query, where, getDocs, getDoc } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js";
-		// TODO: Add SDKs for Firebase products that you want to use
-		// https://firebase.google.com/docs/web/setup#available-libraries
-
-		// Your web app's Firebase configuration
-		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-		const firebaseConfig = {
-			apiKey: "AIzaSyCPurnKVn2caCn3L-gKF2tMFwWur73YAuw",
-			authDomain: "voyager-78e30.firebaseapp.com",
-			projectId: "voyager-78e30",
-			storageBucket: "voyager-78e30.firebasestorage.app",
-			messagingSenderId: "411191248476",
-			appId: "1:411191248476:web:591349be169d823e5f8899",
-			measurementId: "G-TQ1L48F25M"
-		};
-
-		// Initialize Firebase
-		const app = initializeApp(firebaseConfig);
-		const db = getFirestore(app);
-
-		let username = "";
-		let password = "";
-		let decks = "";
-
-		let sessionid = localStorage.getItem("settings.session");
-		let logged_in = (sessionid != null);
-
-		if (logged_in) {
-			const resp = await getDoc(doc(db, 'sessions', sessionid)).then(docSnap => {
-				let data = docSnap.data();
-				username = data.username;
-				password = data.password;
-			});
-
-			await getDoc(doc(db, 'users', username)).then(docSnap => {
-				let data = docSnap.data();
-				console.log(data);
-				document.getElementById("login").innerText = username;
-			});
-		} else {
-			document.getElementById("login").innerText = "Not logged in";
-			document.getElementById("account-btn").innerHTML = `<img src="/img/header/account.png" class="btn-img">Not logged in`;
 		}
 	</script>
 </body>
