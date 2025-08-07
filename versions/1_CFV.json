@@ -20,7 +20,6 @@
             "shape": "token",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -32,14 +31,13 @@
             "number": 3,
             "color_identity": "C",
             "cost": "{2}",
-            "rules_text": "As long as Lock is in your sanctum, cards not named Lock can't leave your sanctum. This card is always revealed while in your sanctum.\n{2}: Exile Lock from your sanctum.",
+            "rules_text": "If a card would leave your sanctum, reveal it. If its a nonbasic card, Lock leaves your sanctum instead. This card is always revealed while in your sanctum.\n{2}: Exile Lock from your sanctum.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "token",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "Bushiroad",
             "notes": ""
         },
@@ -58,7 +56,6 @@
             "shape": "token",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -77,7 +74,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u5200\u5f7c\u65b9",
             "notes": "https://cardfight.fandom.com/wiki/Scattered_Strike_Brave_Shooter"
         },
@@ -96,7 +92,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u7530\u6240\u54f2\u5e73",
             "notes": "https://cardfight.fandom.com/wiki/Yearnful_Flower_Maiden,_Florence"
         },
@@ -108,14 +103,13 @@
             "number": 4,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Vigilance\nLegion [i](As this creature attacks, you may remove another attacking creature from combat to add its power to this creature's until end of turn.)[/i]",
+            "rules_text": "Legion [i](As this creature attacks, you may remove another attacking creature from combat to add its power to this creature's until end of turn.)[/i]\nVigilance",
             "flavor_text": "[i][/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u30a6\u30b9\u30c0\u30d2\u30ed",
             "notes": ""
         },
@@ -134,7 +128,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u304b\u308f\u3059\u307f",
             "notes": "https://cardfight.fandom.com/wiki/Yellow_Jeweled_Beast,_Tolpaz"
         },
@@ -153,7 +146,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u3059\u3050\u308a",
             "notes": "https://cardfight.fandom.com/wiki/Child_Dragon,_Dinobaby"
         },
@@ -172,7 +164,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u85e4\u4e59",
             "notes": "https://cardfight.fandom.com/wiki/Wind_Elemental,_Huey"
         },
@@ -191,7 +182,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u4f50\u4e45\u9593\u3055\u306e\u3059\u3051",
             "notes": "https://cardfight.fandom.com/wiki/Wingal_(V_Series)"
         },
@@ -210,7 +200,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u65af\u6bd4",
             "notes": ""
         },
@@ -229,7 +218,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u5200\u5f7c\u65b9",
             "notes": "https://cardfight.fandom.com/wiki/Warrior_of_Chakram"
         },
@@ -248,7 +236,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u5c71\u6708\u7dcf",
             "notes": "https://cardfight.fandom.com/wiki/Nurse_of_Holdheart"
         },
@@ -260,14 +247,13 @@
             "number": 10,
             "color_identity": "W",
             "cost": "{6}{W}",
-            "rules_text": "Flying\nLegion [i](As this creature attacks, you may remove another attacking creature from combat to add its power to this creature's until end of turn.)[/i]\n{2}{W}, Discard Thing Saver Dragon: Create two 1/1 white Soldier creature tokens.",
+            "rules_text": "Legion [i](As this creature attacks, you may remove another attacking creature from combat to add its power to this creature's until end of turn.)[/i]\nFlying\n{2}{W}, Discard Thing Saver Dragon: Create two 1/1 white Soldier creature tokens.",
             "flavor_text": "[i][/i]",
             "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "NINNIN",
             "notes": "https://cardfight.fandom.com/wiki/Seeker,_Thing_Saver_Dragon_(V_Series)"
         },
@@ -286,7 +272,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "Funbolt",
             "notes": "https://cardfight.fandom.com/wiki/Doctoroid_Doritas"
         },
@@ -305,7 +290,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "DaisukeIzuka",
             "notes": "https://cardfight.fandom.com/wiki/Beast_Knight,_Garmore"
         },
@@ -324,7 +308,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u30c0\u30a4\u30a8\u30af\u30b9\u30c8",
             "notes": "https://cardfight.fandom.com/wiki/Extreme_Battler,_Sosaucer"
         },
@@ -343,7 +326,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "ToMo",
             "notes": "https://cardfight.fandom.com/wiki/Doctoroid_Premas"
         },
@@ -362,7 +344,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u4f0a\u85e4\u672a\u751f",
             "notes": "https://cardfight.fandom.com/wiki/Black_Ring_Chain,_Pleiades"
         },
@@ -381,7 +362,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "kutay",
             "notes": "https://cardfight.fandom.com/wiki/Moment_of_Capture!_Aurora_Battle_Princess_24-hr_Coverage!"
         },
@@ -400,7 +380,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u516d",
             "notes": "https://cardfight.fandom.com/wiki/Holy_Mage,_Elio"
         },
@@ -419,7 +398,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "Touge666",
             "notes": "https://cardfight.fandom.com/wiki/Sanctuary_of_Light,_Determinator"
         },
@@ -431,14 +409,13 @@
             "number": 15,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Whenever Chainwhip Aquaroid becomes tapped, target creature an opponent controls gets -X/-0 until end of turn, where X is the number of tapped creatures you control.",
+            "rules_text": "Legion [i](As this creature attacks, you may remove another attacking creature from combat to add its power to this creature's until end of turn.)[/i]\nWhenever Chainwhip Aquaroid attacks, target creature an opponent controls gets -X/-0 until end of turn, where X is this creature's power.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u57ce\u6238\u6625\u4e00",
             "notes": "https://cardfight.fandom.com/wiki/Steel_Whip_of_Turbulence,_Gheorghe"
         },
@@ -457,7 +434,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u7b52\u4e95\u6d77\u7802",
             "notes": "https://cardfight.fandom.com/wiki/Cody_the_Ghostie"
         },
@@ -476,7 +452,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u677e\u5cf6\u4e00\u592b",
             "notes": "https://cardfight.fandom.com/wiki/Psychic_Bird"
         },
@@ -495,7 +470,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u53f6\u4e4b\u660e",
             "notes": "https://cardfight.fandom.com/wiki/Star-vader,_Worldline_Dragon"
         },
@@ -514,7 +488,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u77f3\u5ddd\u5065\u592a",
             "notes": "https://cardfight.fandom.com/wiki/Upbeat_Dragon"
         },
@@ -533,7 +506,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u30b9\u30ba\u30ad\u30b4\u30ed\u30a6\u200e",
             "notes": "https://cardfight.fandom.com/wiki/Magnet_Crocodile"
         },
@@ -552,7 +524,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u897f\u91ce\u5e78\u6cbb",
             "notes": "https://cardfight.fandom.com/wiki/Witch_of_Frogs,_Melissa"
         },
@@ -571,7 +542,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u4e09\u597d\u8f09\u514b",
             "notes": "https://cardfight.fandom.com/wiki/Stamp_Sea_Otter"
         },
@@ -590,7 +560,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u5c0f\u6fa4\u5f69\u97f3",
             "notes": "https://cardfight.fandom.com/wiki/Prayer_Child_of_Steady_State_Cosmo"
         },
@@ -609,7 +578,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u7530\u53e3\u7f8e\u7a42",
             "notes": "https://cardfight.fandom.com/wiki/Witch_of_Prohibited_Books,_Cinnamon"
         },
@@ -628,7 +596,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "Yum",
             "notes": "https://cardfight.fandom.com/wiki/Coiling_Duckbill"
         },
@@ -647,7 +614,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u5897\u7530\u5e79\u751f",
             "notes": "https://cardfight.fandom.com/wiki/Steam_Scara,_Irkab"
         },
@@ -666,7 +632,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u306a\u3064\u3081\u3048\u308a",
             "notes": "https://cardfight.fandom.com/wiki/Velvet_Voice,_Raindear_(V_Series)"
         },
@@ -685,7 +650,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u8336\u58f1",
             "notes": "https://cardfight.fandom.com/wiki/Stealth_Beast,_Million_Rat"
         },
@@ -704,7 +668,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "KAZTO FURUYA",
             "notes": "https://cardfight.fandom.com/wiki/Doppel_Vampir"
         },
@@ -723,7 +686,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u3042\u3093\u3079\u3088\u3057\u308d\u3046",
             "notes": "https://cardfight.fandom.com/wiki/Stealth_Beast,_Slicer_Wolf"
         },
@@ -742,26 +704,24 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u8336\u58f1",
             "notes": "https://cardfight.fandom.com/wiki/Ripple_Banshee"
         },
         {
-            "card_name": "CB05 Megacolony Undertaker",
+            "card_name": "CB05 Megacolony Medic",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Insect Doctor",
             "number": 33,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "When Megacolony Undertaker enters, each player discards a card. If you discarded a card this way, draw a card.",
+            "rules_text": "When Megacolony Medic enters, each player discards a card. If you discarded a card this way, draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "Touge666",
             "notes": "https://cardfight.fandom.com/wiki/Card_Gallery:Medical_Battler,_Ranpli_(V_Series)"
         },
@@ -780,7 +740,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u30e2\u30ec\u30b7\u30e3\u30f3",
             "notes": "https://cardfight.fandom.com/wiki/Seven_Seas_Shipmate,_Nightalert"
         },
@@ -799,7 +758,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u9f4b\u85e4\u30bf\u30f6\u30aa",
             "notes": "https://cardfight.fandom.com/wiki/Hesketh_the_Ghostie"
         },
@@ -818,7 +776,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u3086\u305a\u3057\u304a",
             "notes": "https://cardfight.fandom.com/wiki/Stealth_Fiend,_Koumaaun"
         },
@@ -837,7 +794,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u7b52\u4e95\u6d77\u7802",
             "notes": "https://cardfight.fandom.com/wiki/Damian_the_Ghostie"
         },
@@ -856,7 +812,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u7363\u9053",
             "notes": "https://cardfight.fandom.com/wiki/Dead_of_the_Seven_Seas,_Aurelio"
         },
@@ -875,7 +830,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u8429\u8c37\u85ab",
             "notes": "https://cardfight.fandom.com/wiki/Skull_Witch,_Nemain"
         },
@@ -894,7 +848,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u4f0a\u54b2\u30a6\u30bf",
             "notes": "https://cardfight.fandom.com/wiki/Dark_Mage,_Badhabh_Caar"
         },
@@ -913,7 +866,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "kaworu",
             "notes": "https://cardfight.fandom.com/wiki/Vital_Leaver"
         },
@@ -932,7 +884,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u516d",
             "notes": "https://cardfight.fandom.com/wiki/Witch_Doctor_of_the_Seven_Seas,_Raistutor"
         },
@@ -944,14 +895,13 @@
             "number": 48,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "Trample, haste\nAt the beginning of your upkeep, if Gunburst Linebacker entered during your last turn, return Gunburst Linebacker to its owner's hand unless you pay {1}{R}.",
+            "rules_text": "Trample, haste\nAt the beginning of your first main phase, if Gunburst Linebacker entered during your last turn, return Gunburst Linebacker to its owner's hand unless you pay {1}{R}.",
             "flavor_text": "[i][/i]",
             "pt": "5/4",
             "special_text": "",
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "ToMo",
             "notes": "https://cardfight.fandom.com/wiki/Gunburst_Linebacker"
         },
@@ -963,14 +913,13 @@
             "number": 49,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
-            "rules_text": "Reach\nWhen this creature enters, return target artifact card with mana value 3 or less from your graveyard to the battlefield. It gains haste. Sacrifice it at the beginning of the next end step.",
+            "rules_text": "Reach\nWhen this creature enters, return target artifact card with mana value 3 or less from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step.",
             "flavor_text": "[i][/i]",
             "pt": "5/4",
             "special_text": "",
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u30b9\u30ba\u30ad\u30b4\u30ed\u30a6",
             "notes": ""
         },
@@ -989,84 +938,79 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u30b9\u30ba\u30ad\u30b4\u30ed\u30a6",
             "notes": ""
         },
         {
-            "card_name": "CR08",
+            "card_name": "CR08 Warbringer Oni",
             "color": "R",
             "rarity": "common",
-            "type": "Creature",
+            "type": "Creature \u2014 Demon Barbarian",
             "number": 50,
             "color_identity": "R",
             "cost": "{5}{R}",
-            "rules_text": "",
+            "rules_text": "Menace\nWhen you discard Warbringer Oni, you may pay {1}{R}. When you do, target creature gets +3/+1 and gains menace until end of turn.",
             "flavor_text": "[i][/i]",
-            "pt": "",
+            "pt": "5/6",
             "special_text": "",
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
-            "artist": "",
-            "notes": ""
+            "artist": "IWAO",
+            "notes": "https://cardfight.fandom.com/wiki/Stealth_Rogue_of_Strife,_Fudoumaru"
         },
         {
-            "card_name": "CR05",
+            "card_name": "CR05 Lightning General",
             "color": "R",
             "rarity": "common",
-            "type": "Creature",
+            "type": "Creature \u2014 Human Soldier",
             "number": 47,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "",
+            "rules_text": "Legion [i](As this creature attacks, you may remove another attacking creature from combat to add its power to this creature's until end of turn.)[/i]\nTrample\nLightning General can't attack alone.",
             "flavor_text": "[i][/i]",
-            "pt": "",
+            "pt": "2/4",
             "special_text": "",
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
-            "artist": "",
+            "artist": "\u7adc\u5fb9\u200e",
             "notes": ""
         },
         {
-            "card_name": "CR09 Shock",
+            "card_name": "CR09 Narukami",
             "color": "R",
             "rarity": "common",
-            "type": "",
+            "type": "Instant",
             "number": 51,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "",
+            "rules_text": "Narukami deals 2 damage to any target. \nAs long as your sanctum has less cards in it than an opponent's sanctum, Narukami has flashback {2}{R}{R}. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
-            "artist": "",
+            "artist": "\u7791\u4e38\u30a4\u30cc\u30c1\u30e8",
             "notes": ""
         },
         {
-            "card_name": "CR12 Smelt",
+            "card_name": "CR12 Hammerknuckle",
             "color": "R",
             "rarity": "common",
-            "type": "",
+            "type": "Instant",
             "number": 54,
             "color_identity": "R",
-            "cost": "{R}",
-            "rules_text": "",
+            "cost": "{3}{R}",
+            "rules_text": "This spell costs {2} less to cast if it targets an artifact.\nDestroy target artifact or land.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
-            "artist": "",
+            "artist": "\u77f3\u7530\u30d0\u30eb",
             "notes": ""
         },
         {
@@ -1084,7 +1028,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "Nardack",
             "notes": ""
         },
@@ -1103,84 +1046,79 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "\u3066\u308b\u307f\u3043",
             "notes": ""
         },
         {
-            "card_name": "CR14 Fireball",
+            "card_name": "CR14 Black Dwarf Burst",
             "color": "R",
             "rarity": "common",
-            "type": "",
+            "type": "Instant",
             "number": 56,
             "color_identity": "R",
-            "cost": "{R}",
-            "rules_text": "",
+            "cost": "{4}{R}",
+            "rules_text": "Black Dwarf Burst deals 6 damage to target creature or planeswalker. If excess damage was dealt this way, conjure a Lock into its controller's sanctum.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
-            "artist": "",
-            "notes": ""
+            "artist": "\u83ca\u5c4b\u30b7\u30ed\u30a6",
+            "notes": "https://cardfight.fandom.com/wiki/Lady_Battler_of_the_Black_Dwarf"
         },
         {
             "card_name": "CR13 Lava Coil",
             "color": "R",
             "rarity": "common",
-            "type": "",
+            "type": "Sorcery",
             "number": 55,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Lava Coil deals 4 damage to target creature. If that creature would die this turn, exile it instead.",
+            "flavor_text": "[i]I got lazy.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
-            "artist": "",
+            "artist": "\u767e\u702c\u5bff",
             "notes": ""
         },
         {
-            "card_name": "CR11 Draw",
+            "card_name": "CR11 Magibullet Creation",
             "color": "R",
             "rarity": "common",
-            "type": "",
+            "type": "Sorcery",
             "number": 53,
             "color_identity": "R",
-            "cost": "{R}",
-            "rules_text": "",
+            "cost": "{1}{R}",
+            "rules_text": "Exile the top two cards of your library. Until the end of your next turn, you may play those cards.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
-            "artist": "",
+            "artist": "\u767e\u702c\u5bff",
             "notes": ""
         },
         {
-            "card_name": "CR10 Combat",
+            "card_name": "CR10 Dragon-Steel Mantle",
             "color": "R",
             "rarity": "common",
-            "type": "",
+            "type": "Artifact \u2014 Equipment",
             "number": 52,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "",
+            "rules_text": "Flash\nWhen Dragon-Steel Mantle enters, attach it to target creature you control. That creature gains first strike until end of turn.\nEquipped creature gets +1/+0.\nEquip {3}",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
-            "artist": "",
+            "artist": "\u7b52\u4e95\u6d77\u7802",
             "notes": ""
         },
         {
@@ -1198,7 +1136,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1217,7 +1154,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1236,7 +1172,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1255,7 +1190,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1274,7 +1208,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1293,7 +1226,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1312,7 +1244,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1331,7 +1262,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1350,7 +1280,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1369,7 +1298,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1388,7 +1316,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1407,7 +1334,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1426,7 +1352,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1445,7 +1370,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1464,7 +1388,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1483,7 +1406,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1502,7 +1424,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1521,7 +1442,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1540,7 +1460,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1559,7 +1478,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1578,7 +1496,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1597,7 +1514,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1616,7 +1532,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1635,7 +1550,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1654,7 +1568,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1673,7 +1586,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         },
@@ -1692,7 +1604,6 @@
             "shape": "normal",
             "set": "CFV",
             "loyalty": "",
-            "designer": "Kogane",
             "artist": "",
             "notes": ""
         }
